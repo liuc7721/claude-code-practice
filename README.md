@@ -20,3 +20,5 @@ protection rule actually blocks direct pushes on a free-plan private repo.
 Testing push after repo became public.
 
 Testing push after enabling 'do not allow bypassing'.
+
+Testing a PR title without a ticket number, to confirm validate-pr-title blocks it.
