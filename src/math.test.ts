@@ -3,7 +3,7 @@ import { add, multiply, subtract } from "./math.js";
 
 describe("math", () => {
   it("adds two numbers", () => {
-    expect(add(2, 3)).toBe(5);
+    expect(add(2, 3)).toBe(999);
   });
 
   it("multiplies two numbers", () => {
