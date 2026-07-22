@@ -18,3 +18,5 @@ This line was committed directly to `main` to test whether the branch
 protection rule actually blocks direct pushes on a free-plan private repo.
 
 Testing push after repo became public.
+
+Testing push after enabling 'do not allow bypassing'.
