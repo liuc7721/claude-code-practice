@@ -12,13 +12,8 @@ npm test        # run tests with vitest
 npm run dev     # run src/index.ts directly
 ```
 
-## Branch protection test
+## Practice notes
 
-This line was committed directly to `main` to test whether the branch
-protection rule actually blocks direct pushes on a free-plan private repo.
-
-Testing push after repo became public.
-
-Testing push after enabling 'do not allow bypassing'.
-
-Testing a PR title without a ticket number, to confirm validate-pr-title blocks it.
+See [NOTES.md](NOTES.md) for a full write-up of the GitHub workflow practice:
+commit, push, GitHub Actions CI, pull requests, branch protection, and enforcing
+ticket numbers in commit messages.
